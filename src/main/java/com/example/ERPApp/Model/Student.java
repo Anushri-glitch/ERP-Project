@@ -2,14 +2,14 @@ package com.example.ERPApp.Model;
 
 import java.util.List;
 
-public class ERP {
+public class Student {
     private int roll_Number;
     private String name;
     private String gender;
     private List<Double> marks;
     private String city;
 
-    public ERP(int roll_Number, String name, String gender, List<Double> marks, String city) {
+    public Student(int roll_Number, String name, String gender, List<Double> marks, String city) {
         this.roll_Number = roll_Number;
         this.name = name;
         this.gender = gender;
